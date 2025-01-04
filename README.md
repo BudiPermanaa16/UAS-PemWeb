@@ -32,29 +32,29 @@ Contoh:
 
 ## Sturktur File Proyek
 /inventaris/
-├── cetak_pdf.php            # Skrip untuk mencetak laporan inventaris dalam format PDF
-├── edit_barang.php          # Halaman untuk mengedit informasi barang
-├── index.php                # Halaman utama aplikasi
-├── inventori.php            # Halaman untuk menampilkan daftar inventaris
-├── koneksi.php              # Skrip untuk menghubungkan ke database
-├── login.php                # Halaman untuk login pengguna
-├── logout.php               # Skrip untuk logout pengguna
-├── lib/                     # Folder untuk library eksternal
-│   └── fpdf.php             # Library untuk menghasilkan file PDF
-│   └── font/                # Folder untuk font yang digunakan dalam PDF
-│       └── courier.php      # Font Courier
-│       └── helvetica.php    # Font Helvetica
-│       └── helveticab.php   # Font Helvetica Bold
-│       └── helveticai.php   # Font Helvetica Italic
-├── assets/                  # Folder untuk aset statis
-│   ├── css/                 # Folder untuk file CSS
-│   │   └── inventori.css    # Gaya untuk halaman inventaris
-│   │   └── edit_barang.css  # Gaya untuk halaman edit barang
-│   │   └── fpdf.css         # Gaya untuk halaman PDF
-│   │   └── index.css        # Gaya untuk halaman utama
-│   │   └── login2.css       # Gaya untuk halaman login
-│   └── js/                  # Folder untuk file JavaScript
-│       └── script.js        # Skrip JavaScript untuk interaktivitas
-│   └── images/              # Folder untuk gambar
-│       └── background.jpg   # Gambar latar belakang
-│       └── home.jpg         # Gambar untuk halaman utama
+├── cetak_pdf.php              # Skrip untuk mencetak laporan inventaris dalam format PDF
+├── edit_barang.php            # Halaman untuk mengedit informasi barang
+├── index.php                  # Halaman utama aplikasi
+├── inventori.php              # Halaman untuk menampilkan daftar inventaris
+├── koneksi.php                # Skrip untuk menghubungkan ke database
+├── login.php                  # Halaman untuk login pengguna
+├── logout.php                 # Skrip untuk logout pengguna
+├── lib/                       # Folder untuk library eksternal
+│   ├── fpdf.php               # Library untuk menghasilkan file PDF
+│   └── font/                  # Folder untuk font yang digunakan dalam PDF
+│       ├── courier.php        # Font Courier
+│       ├── helvetica.php      # Font Helvetica
+│       ├── helveticab.php     # Font Helvetica Bold
+│       └── helveticai.php      # Font Helvetica Italic
+├── assets/                    # Folder untuk aset statis
+│   ├── css/                   # Folder untuk file CSS
+│   │   ├── inventori.css      # Gaya untuk halaman inventaris
+│   │   ├── edit_barang.css     # Gaya untuk halaman edit barang
+│   │   ├── fpdf.css           # Gaya untuk halaman PDF
+│   │   ├── index.css          # Gaya untuk halaman utama
+│   │   └── login2.css         # Gaya untuk halaman login
+│   ├── js/                    # Folder untuk file JavaScript
+│   │   └── script.js          # Skrip JavaScript untuk interaktivitas
+│   └── images/                # Folder untuk gambar
+│       ├── background.jpg      # Gambar latar belakang
+│       └── home.jpg           # Gambar untuk halaman utama
