@@ -30,7 +30,7 @@ Contoh:
    - Jalankan aplikasi dengan membuka Xampp dan tinggal membuka
       http://localhost/inventaris
 
-3. **Sturktur File Proyek**
+## Sturktur File Proyek
 /inventaris/
 ├── cetak_pdf.php            # Skrip untuk mencetak laporan inventaris dalam format PDF
 ├── edit_barang.php          # Halaman untuk mengedit informasi barang
